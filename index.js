@@ -114,7 +114,8 @@ rl.question(text, resolve)
 };
 
 async function startBotz() {
-const { state, saveCreds } = await useMultiFileAuthState("session")
+const { state, saveCreds } = await useMultiFileAuthState(`./${global.sessionName}`);
+  // Fetch the latest version of Baileys and check if it's the latest
 const ptz = makeWASocket({
 logger: pino({ level: "silent" }),
 printQRInTerminal: !usePairingCode,
