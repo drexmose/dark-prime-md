@@ -35,6 +35,7 @@ global.baileysVersion = `Baileys version ${version}`
 global.TypeBaileys = `whiskeysockets`
 global.footer = `KyuuRzy 乂 𝐙͢𝐱𝐕 𝐂𝐋͢𝐢𝚵𝐍͢𝐓`
 global.prefa = ['','!','.',',','🐤','🗿']
+global.sessionName = 'session'
 
 //watermark 
 global.packname = 'KyuuRzy'
